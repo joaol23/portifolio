@@ -8,7 +8,7 @@ type ClientComponentRootProps = {
     children: ReactNode
 }
 
-export function ClientComponentRoot({children}:) {
+export function ClientComponentRoot({ children }: ClientComponentRootProps) {
     return (
 
         <ChakraProvider theme={theme}>
