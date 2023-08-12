@@ -1,6 +1,11 @@
+"use client";
 import React from 'react';
+import { ColorModeScript } from "@chakra-ui/react";
 import { ReactNode } from 'react';
 import '../index.css';
+import theme from "../theme";
+import { ChakraProvider } from "@chakra-ui/react";
+import Footer from '@components/Footer';
 import { Metadata } from 'next';
 
 type RootLayoutProps = {
@@ -21,7 +26,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <link rel="icon" href="/icon.png" />
       </head>
       <body>
-        {children}
+        <ChakraProvider theme={theme}>
+          <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+          {children}
+          <Footer />
+        </ChakraProvider>
       </body>
     </html>
   )
