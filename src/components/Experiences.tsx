@@ -54,15 +54,17 @@ export default function Experiences({ color }: ExperienceComponentProps) {
           </Stack>
           <Center px={4}>
             <ButtonGroup variant="outline">
-              {tags.map((option) => (
-                <Button
-                  key={option.id}
-                  colorScheme={selected?.id === option.id ? `${color}` : "gray"}
-                  onClick={() => handleSelected(option)}
-                >
-                  {option.name}
-                </Button>
-              ))}
+              <SimpleGrid columns={[2, 3, 4]} spacing={4} >
+                {tags.map((option) => (
+                  <Button
+                    key={option.id}
+                    colorScheme={selected?.id === option.id ? `${color}` : "gray"}
+                    onClick={() => handleSelected(option)}
+                  >
+                    {option.name}
+                  </Button>
+                ))}
+              </SimpleGrid>
             </ButtonGroup>
           </Center>
           <Stack px={4} spacing={4}>
