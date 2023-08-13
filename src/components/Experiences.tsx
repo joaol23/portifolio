@@ -9,6 +9,7 @@ import {
   Button,
   ButtonGroup,
   Center,
+  SimpleGrid,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import { experiences } from "../data/experience";

@@ -26,7 +26,7 @@ export const projects: projectProps[] = [
             },
             {
                 text: 'Site',
-                href: "https://projetos-front.onrender.com"
+                href: "https://cotemig-project-front.vercel.app"
             }
         ]
     },
