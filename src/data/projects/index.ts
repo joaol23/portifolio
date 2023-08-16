@@ -85,7 +85,7 @@ export const others: OtherProjectsProps[] = [
     },
     {
         name: "Game-Helicopter",
-        description: "Jogo simples feito no qual você controla um helicoptero",
+        description: "Jogo simples feito no qual você controla um helicóptero",
         tags: ["js"],
         badges: [
             {

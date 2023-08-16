@@ -33,10 +33,9 @@ export default function About({ color }: AboutComponent) {
             <Divider orientation="horizontal" />
           </Stack>
           <Text color={"gray.600"} fontSize={"xl"} px={4}>
-            Trabalho como Desenvolvedor FullStack, sou formado no Cotemig como Técnico de Informática, e estou cursando atualmente Ciência da Computação na FUMEC.
+            Trabalho como Desenvolvedor FullStack, sou formado no Cotemig como Técnico de Informática, cursando atualmente Ciência da Computação na FUMEC.
           </Text>
           <Text color={"gray.600"} fontSize={"xl"} px={4}>
-            Sou apaixonado por tecnologia e venho sempre tentando aprender mais sobre desenvolvimento e programação.
             Atualmente estou no foco de aprendizado em padrões de projeto, para que cada vez mais meu código possa ser um código limpo e de fácil manutenção.
           </Text>
         </Stack>

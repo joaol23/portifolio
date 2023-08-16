@@ -58,7 +58,7 @@ export const experiences: experienceProps[] = [
         ]
     },
     {
-        role: "Estagio desenvolvedor",
+        role: "Estágio desenvolvedor",
         tags: ["construsite_brasil"],
         image: "../../../assets/jobs/construsite.png",
         period: {

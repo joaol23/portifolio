@@ -54,7 +54,7 @@ export default function Header({ color }: HeaderProps) {
             color={"gray.500"}
             fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
           >
-            Sou apaixonado por tecnologia. Estou sempre buscando aprimorar meus conhecimentos
+            Sou apaixonado por tecnologia. Sempre buscando aprimorar meus conhecimentos
             e estar por dentro das novidades no mundo de programação.
           </Text>
           <Stack
