@@ -140,6 +140,10 @@ export const experiences: experienceProps[] = [
             {
                 text: "Java",
                 colorScheme: "orange"
+            },
+            {
+                text: "Algoritmo",
+                colorScheme: "blue"
             }
         ],
         items: [

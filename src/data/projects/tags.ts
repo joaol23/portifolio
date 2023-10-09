@@ -2,6 +2,10 @@ import { tagProps } from "../@types/tag";
 
 export const tags: tagProps[] = [
     {
+        id: 'php',
+        name: 'PHP'
+    },
+    {
         id: 'js',
         name: 'JavaScript'
     },
