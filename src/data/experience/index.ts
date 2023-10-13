@@ -94,6 +94,55 @@ export const experiences: experienceProps[] = [
         ]
     },
     {
+        role: "NodeJS Developer (GraphQL, MongoDB, + more)",
+        tags: ["certificates"],
+        image: "../../../assets/education/udemy.png",
+        period: {
+            begin: "Maio 2023",
+            end: "Outubro 2023"
+        },
+        badges: [
+            {
+                text: "Node.js",
+                colorScheme: "orange"
+            },
+            {
+                text: "AWS",
+                colorScheme: "black"
+            },
+            {
+                text: "MongoDB",
+                colorScheme: "green"
+            },
+            {
+                text: "GraphQl",
+                colorScheme: "pink"
+            }
+        ],
+        items: [
+            {
+                id: "certificate_3",
+                text: "Tecnologias",
+                description: "Node.js, Jest, AWS (EC2), GraphQl, Sockets, Typescript, Express"
+            },
+            {
+                id: "certificate_4",
+                text: "Descrição",
+                description: "Curso para entender como funciona Node por trás dos panos. Diversas tecnologias relacionadas e como fazer integrações"
+            },
+            {
+                id: "certificate_5",
+                text: "Carga Horária",
+                description: "46:30 horas"
+            },
+            {
+                id: "certificate_6",
+                text: "Referência",
+                link: "https://www.udemy.com/certificate/UC-a5150bc5-fb49-4aea-9b2d-f060d5600875/"
+            }
+        ]
+    },
+    {
         role: "Desenvolvimento Web PHP",
         tags: ["certificates"],
         image: "../../../assets/jobs/construsite.png",

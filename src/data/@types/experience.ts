@@ -15,5 +15,6 @@ export interface experienceProps  {
 export interface itemProps {
     id: string,
     text: string,
-    description: string
+    description?: string,
+    link?: string
 }
