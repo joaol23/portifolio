@@ -107,6 +107,59 @@ export const others: OtherProjectsProps[] = [,
                 href: "https://github.com/joaol23/rpg"
             }
         ]
+    },    {
+        name: "Nasa-Project",
+        description: "Utilizando Express com MongoDb para ter um registro de viagens ao espaço.",
+        tags: ["js"],
+        badges: [
+            {
+                text: "NodeJs",
+                colorScheme: "orange"
+            },
+            {
+                text: "MongoDB",
+                colorScheme: "green"
+            },
+            {
+                text: "Jest",
+                colorScheme: "orange"
+            }
+        ],
+        buttons: [
+            {
+                text: 'Github',
+                href: "https://github.com/joaol23/nasa-project"
+            },
+            {
+                text: 'Site',
+                href: "https://nasa-project-2by6.onrender.com/"
+            }
+        ]
+    },
+        {
+        name: "Multiplayer Pong",
+        description: "Usando Socket.io para criar um mini jogo multiplayer.",
+        tags: ["js"],
+        badges: [
+            {
+                text: "NodeJs",
+                colorScheme: "orange"
+            },
+            {
+                text: "Socket.io",
+                colorScheme: "blue"
+            }
+        ],
+        buttons: [
+            {
+                text: 'Github',
+                href: "https://github.com/joaol23/multiplayer-pong-game"
+            },
+            {
+                text: 'Site',
+                href: "https://multiplayer-ping-pong.onrender.com/"
+            }
+        ]
     },
     {
         name: "Game-Helicopter",
