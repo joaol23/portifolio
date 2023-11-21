@@ -61,7 +61,32 @@ export const projects: projectProps[] = [
     }
 ];
 
-export const others: OtherProjectsProps[] = [,
+export const others: OtherProjectsProps[] = [
+    {
+        name: "Projeto Laravel",
+        description: "Projeto em desenvolvimento que estou usando para praticar conhecimentos e arquiteturas com Laravel",
+        tags: ["php"],
+        badges: [
+            {
+                text: "PHP",
+                colorScheme: "purple"
+            },
+            {
+                text: "Laravel",
+                colorScheme: "red"
+            },
+            {
+                text: "Docker",
+                colorScheme: "blue"
+            }
+        ],
+        buttons: [
+            {
+                text: 'Github',
+                href: "https://github.com/joaol23/laravel-project"
+            }
+        ]
+    },
     {
         name: "Alura Series",
         description: "Pequeno projeto para explorar as utilidades do laravel.",

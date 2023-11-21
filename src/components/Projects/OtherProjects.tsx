@@ -1,5 +1,4 @@
-import { Badge, Button, ButtonGroup, Card, CardBody, Center, HStack, Heading, Link, SimpleGrid, Stack, Text } from "@chakra-ui/react";
-import { Fade } from "react-reveal";
+import { Button, ButtonGroup, Center, SimpleGrid, Text } from "@chakra-ui/react";
 import { others } from "../../data/projects";
 import { useState } from "react";
 import { tags } from "../../data/projects/tags";
