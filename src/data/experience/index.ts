@@ -143,6 +143,55 @@ export const experiences: experienceProps[] = [
         ]
     },
     {
+        role: "NestJS Fundamentos - [2024]",
+        tags: ["certificates"],
+        image: "../../../assets/education/udemy.png",
+        period: {
+            begin: "Outubro 2023",
+            end: "Novembro 2023"
+        },
+        badges: [
+            {
+                text: "Node.js",
+                colorScheme: "orange"
+            },
+            {
+                text: "Nest",
+                colorScheme: "red"
+            },
+            {
+                text: "Jest",
+                colorScheme: "blue"
+            },
+            {
+                text: "TypeOrm",
+                colorScheme: "blue"
+            }
+        ],
+        items: [
+            {
+                id: "certificate_3",
+                text: "Tecnologias",
+                description: "Node.js, Nest, Jest, TypeOrm, Prisma"
+            },
+            {
+                id: "certificate_4",
+                text: "Descrição",
+                description: "Entendendo como funciona o Nest e como utilizar suas principais funcionalidades"
+            },
+            {
+                id: "certificate_5",
+                text: "Carga Horária",
+                description: "15  horas"
+            },
+            {
+                id: "certificate_6",
+                text: "Referência",
+                link: "https://www.udemy.com/certificate/UC-3016030e-07ba-467f-b14d-20c787efebbf/"
+            }
+        ]
+    },
+    {
         role: "Desenvolvimento Web PHP",
         tags: ["certificates"],
         image: "../../../assets/jobs/construsite.png",
