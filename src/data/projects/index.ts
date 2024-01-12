@@ -65,7 +65,7 @@ export const projects: projectProps[] = [
 
 export const others: OtherProjectsProps[] = [
   {
-    name: "Projeto Laravel",
+    name: "Projeto Pokemon Laravel",
     description:
       "Projeto em desenvolvimento que estou usando para praticar conhecimentos e arquiteturas com Laravel",
     tags: ["php"],
