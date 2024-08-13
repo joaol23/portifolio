@@ -2,11 +2,56 @@ import { experienceProps } from '../@types/experience';
 
 export const experiences: experienceProps[] = [
     {
+        role: "FullStack Developer",
+        image: "../../../assets/jobs/bling.png",
+        tags: ["bling"],
+        period: {
+            begin: "Janeiro 2024"
+        },
+        badges: [
+            {
+                text: "PHP",
+                colorScheme: "purple"
+            },
+            {
+                text: "Vue",
+                colorScheme: "green"
+            },
+            {
+                text: "Sql",
+                colorScheme: "pink"
+            },
+            {
+                text: "Docker",
+                colorScheme: "blue"
+            },
+            {
+                text: "Git",
+                colorScheme: "orange"
+            }
+        ],
+        items: [
+            {
+                id: "fullstack_3",
+                text: "Tecnologias",
+                description: "PHP, Sql, Vue.js, JavaScript, Docker, Git, entre outros"
+            },
+            {
+                id: "fullstack_4",
+                text: "Descrição",
+                description:
+                    "Trabalhando em um projeto principal com foco no fluxo de Gestão Financeira de diversos clientes. "
+                    + "Atuando em remodelações de fluxos e ajustes para melhor performance."
+            }
+        ]
+    },
+    {
         role: "FullStack Web Developer",
         image: "../../../assets/jobs/construsite.png",
         tags: ["construsite_brasil"],
         period: {
-            begin: "Junho 2022"
+            begin: "Junho 2022",
+            end: "Janeiro 2024"
         },
         badges: [
             {
